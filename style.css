@@ -1,0 +1,148 @@
+body{
+    background-image: url(tree\ wallper.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: lighten;
+}
+h1{
+    color: rgb(6, 5, 5);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    font-size: 45px;
+    border: 3px solid black;
+    border-radius: 50px;
+    padding: 4px;
+    box-shadow: 10px 5px 16px rgb(9, 9, 9);
+    background-color: antiquewhite;
+    align-items: center;
+    display: flex;
+    justify-content: center
+}
+.container1{
+    color: rgb(0, 0, 0);
+    width: 450px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border: 3px solid black;
+    border-radius: 50px;
+    padding: 2px;
+    margin-left: 1900px;
+    margin-right: 50px;
+    box-shadow: 10px 5px 15px black;
+    background-color: antiquewhite;
+    transition: all 0.3s ease;
+    transform: scale(1);
+}
+.container1:hover{
+    background-color: antiquewhite(220, 202, 202); 
+    border-color: #000000; 
+    box-shadow: 5px 5px 20p;
+    transform: scale(1.2);
+}
+.container2{
+    color: rgb(0, 0, 0);
+    width: 450px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border: 3px solid black;
+    border-radius: 50px;
+    padding: 4px;
+    margin-left: 1900px;
+    margin-right: 50px;
+    box-shadow: 10px 5px 15px black;
+    margin-top: 40px;
+    background-color: antiquewhite;
+    transition: all 0.3s ease;
+    transform: scale(1);
+}
+.container2:hover{
+    background-color: antiquewhite(220, 202, 202); 
+    border-color: #000000; 
+    box-shadow: 5px 5px 20p;
+    transform: scale(1.2);
+}
+.container3{
+    color: rgb(0, 0, 0);
+    width: 450px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border: 3px solid black;
+    border-radius: 50px;
+    padding: 4px;
+    margin-left: 1900px;
+    margin-right: 50px;
+    box-shadow: 10px 5px 15px black;
+    margin-top: 40px;
+    background-color: antiquewhite;
+    transition: all 0.3s ease;
+    transform: scale(1);
+}
+.container3:hover{
+    background-color: antiquewhite(220, 202, 202); 
+    border-color: #000000; 
+    box-shadow: 5px 5px 20p;
+    transform: scale(1.2);
+}
+footer {
+    color: #0a0909; 
+    font-size: 20px; 
+    text-align: center; 
+    padding: 10px;
+    position: fixed; 
+    bottom: 0;
+    margin-left: 150px;
+    margin-right: 150px;
+    border: 3px solid black; 
+    border-radius: 100px; 
+    background-color: antiquewhite; 
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.5); 
+    transition: all 0.3s ease; 
+}
+
+footer:hover {
+    background-color: antiquewhite; 
+    border-color: #000000; 
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.8); 
+    transform: scale(1.2); 
+}
+
+.email-link {
+    color: #051d31; 
+    text-decoration: wavy; 
+}
+
+.email-link:hover {
+    color: #815708; 
+}
+.image-container1 {
+    position: relative; /* מאפשר להוסיף ממוזערים */
+    margin: 2px; /* מרווח פנימי */
+    margin-right: 2100px;
+    bottom: 500px;
+}
+.image-container1 img {
+    width: 300px; /* רוחב התמונה הממוזערת */
+    height: auto; /* שומר על פרופורציות */
+    transition: all 0.3s ease; /* מעבר חלק במעבר עם העכבר */
+    border: 3px solid black; 
+    border-radius: 100px;
+    box-shadow: 10px 5px 15px black;
+}
+.image-container1:hover img {
+    transform: scale(1.3); /* הזום של התמונה המוגדלת */
+    box-shadow: 5px 5px 20p;
+}
+.text-over-image {
+    position: absolute;
+    bottom: 300px;
+    left: 45%;
+    margin-left: 77px;
+    transform: translate(-50%, -50%);
+    color: rgb(14, 14, 14); /* צבע הטקסט על התמונה */
+    font-size: 35px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    border: 3px solid black; 
+    border-radius: 100px;
+    padding: 8px;
+    background-color: antiquewhite;
+    box-shadow: 10px 5px 15px black;
+}
